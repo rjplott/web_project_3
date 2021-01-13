@@ -1,0 +1,11 @@
+.header__language {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.header__language:first-child {
+  padding-right: 18px;
+}
