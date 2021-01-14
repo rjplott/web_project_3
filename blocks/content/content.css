@@ -1,5 +1,6 @@
 @import url(./__lead/content__lead.css);
 @import url(./__intro/content__intro.css);
+@import url(./__photo-grid/content__photo-grid.css);
 
 .content {
   width: 100%;
