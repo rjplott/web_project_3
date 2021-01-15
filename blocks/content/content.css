@@ -2,8 +2,8 @@
 @import url(./__intro/content__intro.css);
 @import url(./__photo-grid/content__photo-grid.css);
 @import url(./__places/content__places.css);
-
-.content {
+@import url(./__cover/content__cover.css);
+% .content {
   width: 100%;
   max-width: 1280px;
   display: flex;
