@@ -2,3 +2,9 @@
   max-width: 480px;
   width: calc(51% - 20px);
 }
+
+@media screen and (max-width: 1024px) {
+  .place__text-description {
+    width: calc(51% - 16px);
+  }
+}

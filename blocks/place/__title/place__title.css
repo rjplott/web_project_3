@@ -3,8 +3,14 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
-  margin: 0 40px 48px 0;
+  margin: 0 32px 48px 0;
   padding: 0;
   max-width: 460px;
   width: calc(49% - 20px);
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: calc(49% - 16px);
+  }
 }

@@ -11,3 +11,9 @@
   max-width: 984px;
   width: calc(100% - 296px);
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
