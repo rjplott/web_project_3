@@ -3,8 +3,9 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-  min-width: 1184px;
+  width: calc(100% - 96px);
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }

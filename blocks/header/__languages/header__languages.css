@@ -1,5 +1,4 @@
 .header__languages {
-  list-style-type: none;
   display: flex;
   align-items: flex-end;
   margin: 0;

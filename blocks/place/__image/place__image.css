@@ -1,4 +1,5 @@
 .place__image {
-  height: 460px;
-  width: 460px;
+  max-width: 460px;
+  width: calc(49% - 20px);
+  margin-right: 40px;
 }

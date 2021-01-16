@@ -1,0 +1,4 @@
+.place__text-description {
+  max-width: 480px;
+  width: calc(51% - 20px);
+}

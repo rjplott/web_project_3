@@ -5,10 +5,10 @@
 @import url(./__cover/content__cover.css);
 
 .content {
-  width: 100%;
-  max-width: 1280px;
+  width: calc(100% - 96px);
+  max-width: 1184px;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }

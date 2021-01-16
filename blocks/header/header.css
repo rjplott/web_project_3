@@ -4,9 +4,10 @@
 @import url(./__language/_selected/header__language_selected.css);
 
 .header {
-  min-width: 984px;
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 34px 0 0;
+  max-width: 984px;
+  width: calc(100% - 296px);
 }
