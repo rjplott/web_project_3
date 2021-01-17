@@ -1,11 +1,19 @@
 .place__image {
   max-width: 460px;
   width: calc(49% - 20px);
-  margin-right: 32px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
     width: calc(49% - 16px);
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: calc(49% - 14px);
+    margin-right: 28px;
   }
 }

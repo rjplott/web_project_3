@@ -2,7 +2,13 @@
   color: white;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.1;
   padding: 0;
   margin: 0 0 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+  }
 }

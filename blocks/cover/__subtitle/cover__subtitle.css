@@ -5,4 +5,11 @@
   line-height: 1.2;
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+  }
 }

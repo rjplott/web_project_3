@@ -3,7 +3,7 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
-@import url(./__text-description/__text-description.css);
+@import url(./__text-description/place__text-description.css);
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
@@ -14,4 +14,10 @@
 
 .place + .place {
   margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place + .place {
+    margin-top: 73px;
+  }
 }

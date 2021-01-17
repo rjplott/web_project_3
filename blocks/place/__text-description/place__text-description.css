@@ -8,3 +8,9 @@
     width: calc(51% - 16px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__text-description {
+    width: calc(51% - 14px);
+  }
+}

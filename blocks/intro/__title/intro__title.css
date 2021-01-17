@@ -6,3 +6,9 @@
   margin: 0;
   max-width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));
+  }
+}

@@ -10,3 +10,9 @@
     width: calc(50% - 16px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: calc(50% - 14px);
+  }
+}

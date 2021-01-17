@@ -2,3 +2,9 @@
   max-width: 190px;
   min-width: 156px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 50%;
+  }
+}
