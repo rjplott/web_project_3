@@ -14,3 +14,10 @@
     width: calc(51% - 14px);
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__text-description {
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+}

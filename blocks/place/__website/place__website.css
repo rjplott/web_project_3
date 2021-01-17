@@ -16,3 +16,9 @@
     width: calc(50% - 14px);
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    display: none;
+  }
+}

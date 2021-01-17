@@ -2,10 +2,16 @@
   color: white;
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.15;
   text-decoration: none;
 }
 
 .header__language:first-child {
   padding-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__language {
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (768 - 320)));
+  }
 }
