@@ -25,9 +25,16 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
+  .place__title {
+    width: 100%;
+    margin: 0 auto 32px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .place__title {
     width: calc(100% - 32px);
-    margin: 0 auto 32px;
   }
 }

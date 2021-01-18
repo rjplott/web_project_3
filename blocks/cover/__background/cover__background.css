@@ -1,22 +1,7 @@
 .cover__background {
   width: 100%;
   background-image: url(../../../images/cover-route-66.jpg);
-  background-size: cover;
-  padding-top: 62.5%;
   position: relative;
-}
-
-.cover__background::before {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(42, 44, 47, 0.3);
-  content: "";
-  transition: background-color 1s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.cover__background:hover::before {
-  background-color: rgba(42, 44, 47, 0.8);
+  display: block;
+  z-index: 0;
 }
