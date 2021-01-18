@@ -1,7 +1,6 @@
 .cover__link {
   text-decoration: none;
   position: relative;
-  display: block;
   background-image: url(../../../images/cover-route-66.jpg);
   background-size: cover;
   width: 100%;
