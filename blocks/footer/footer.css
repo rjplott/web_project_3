@@ -1,6 +1,7 @@
-@import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__links-list/footer__links-list.css);
+@import url(./__list-item/footer__list-item.css);
 
 .footer {
   width: calc(100% - 96px);
@@ -19,7 +20,6 @@
 @media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
-    max-width: 168px;
     margin-left: 16px;
   }
 }
