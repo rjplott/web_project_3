@@ -15,3 +15,9 @@
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
   }
 }
+
+@media screen and (max-width: 450px) {
+  .cover__title {
+    margin-bottom: 16px;
+  }
+}
